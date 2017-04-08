@@ -33,10 +33,12 @@
 
 	map.addControl(new mapboxgl.NavigationControl());
 
+	var sourceURL = 'https://github.com/jamesw96/UWStreetLight/blob/master/export.geojson'
+
 	map.on('load', function(){
 		map.addSource('streetlamp',{
 			type: 'geojson',
-			data: 'export.geojson'
+			data: 'sourceURL'
 		})
 		map.addLayer({
 			id: 'streetlamp',
