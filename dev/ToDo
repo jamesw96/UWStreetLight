@@ -1,0 +1,29 @@
+Step 0. 
+Use Webpack to get the file into Server  [Webpack 2.0]
+Install Module using npm (node ecosystem) [Node 6.9]
+Webpack configuration
+Bundler 
+Consider server side processing? 
+2-10 hours 
+
+Step 1. 
+OSM Data find Layer street (vector tile format)
+
+Step 2. 
+Use script to convert back to geoJson
+
+Step 3. 
+Use (Turf) GIS tool, do some math-y stuff to it
+Find intersection of circle and street, then calculate percentage 
+When calculate line use Haversine function!
+When drawing buffer for circle use bufferpoint.js
+
+Step 4. 
+Add new layer and style
+
+
+Note:
+Use require [var path = require('path');, var webpack = require('webpack');] --> Import is more consistent (better than require) [But start with require]
+[var turf = require('turf')]
+
+
