@@ -2,6 +2,7 @@
 node_modules/
 
 # Dev_notes
-
+dev/
 
 # Templates
+template/
