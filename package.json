@@ -1,17 +1,14 @@
 {
-  "name": "Street-Lamp",
-  "version": "0.0.0",
+  "name": "uw-street-lamp",
+  "version": "1.0.0",
   "description": "Street-Lamp Project",
   "main": "./bundle/map-bundle.js",
-  "dependencies": {
-    "babel-preset-es2015": "~6.24.0",
-    "babel-core": "~6.24.0",
-    "babel-loader": "~6.4.1",
-    "check-node-version": "~2.0.1",
-    "webpack": "~2.3.3"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "webpack": "^2.3.3"
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-latest": "^6.24.1",
+    "webpack": "^2.4.1"
   },
   "scripts": {
     "start": "webpack --watch",
@@ -19,5 +16,17 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "James Wang",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jamesw96/UWStreetLight.git"
+  },
+  "keywords": [
+    "street-light",
+    "uw"
+  ],
+  "bugs": {
+    "url": "https://github.com/jamesw96/UWStreetLight/issues"
+  },
+  "homepage": "https://github.com/jamesw96/UWStreetLight#readme"
 }
